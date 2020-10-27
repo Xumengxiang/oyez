@@ -1,9 +1,9 @@
-import program from 'commander';
+const program = require('commander');
 
-import create from './create';
-import init from './init';
-import dev from './dev';
-import build from './build';
+const create = require('./create');
+const init = require('./init');
+const dev = require('./dev');
+const build = require('./build');
 
 /**
  * oyez-cli 命令列表

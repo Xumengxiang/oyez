@@ -1,10 +1,10 @@
-import symbol from 'log-symbols';
-import chalk from 'chalk';
-import ora from 'ora';
+const symbol = require('log-symbols');
+const chalk = require('chalk');
+const ora = require('ora');
 
-import {
+const {
   notExistFolder, prompt, downloadTemplate, updateJsonFile,
-} from './utils';
+} = require('./utils');
 
 const create = async (projectName) => {
   // 项目名不能为空

@@ -1,5 +1,5 @@
-import VueLoaderPlugin from 'vue-loader/lib/plugin';
-import HtmlWebpackPlugin from 'html-webpack-plugin';
+const VueLoaderPlugin = require('vue-loader/lib/plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     mode: 'production', // production

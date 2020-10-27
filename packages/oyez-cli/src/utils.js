@@ -1,8 +1,8 @@
-import fs from 'fs';
-import symbol from 'log-symbols';
-import chalk from 'chalk';
-import inquirer from 'inquirer';
-import downloadGitRepo from 'download-git-repo';
+const fs = require('fs');
+const symbol = require('log-symbols');
+const chalk = require('chalk');
+const inquirer = require('inquirer');
+const downloadGitRepo = require('download-git-repo');
 
 // 文件夹是否存在
 const notExistFolder = async (name) => new Promise((resolve, reject) => {

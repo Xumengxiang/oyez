@@ -1,6 +1,6 @@
-import webpack from 'webpack';
-import WebpackDevServer from 'webpack-dev-server';
-import OpenBrowserPlugin from 'open-browser-webpack-plugin';
+const webpack = require('webpack');
+const WebpackDevServer = require('webpack-dev-server');
+const OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
 const config = require('./webpack.config.dev.js');
 

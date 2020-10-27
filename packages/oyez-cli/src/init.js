@@ -1,9 +1,9 @@
-import child from 'child_process';
-import symbol from 'log-symbols';
-import chalk from 'chalk';
-import ora from 'ora';
-import { util } from 'util';
-import { updateJsonFile } from './utils';
+const child = require('child_process');
+const symbol = require('log-symbols');
+const chalk = require('chalk');
+const ora = require('ora');
+const util = require('util');
+const { updateJsonFile } = require('./utils');
 
 const exec = util.promisify(child.exec);
 

@@ -1,7 +1,7 @@
-import webpack from 'webpack';
-import symbol from 'log-symbols';
-import chalk from 'chalk';
-import config from './webpack.config.build';
+const webpack = require('webpack');
+const symbol = require('log-symbols');
+const chalk = require('chalk');
+const config = require('./webpack.config.build');
 
 const build = () => {
   webpack(config, (err) => {
