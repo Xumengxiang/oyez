@@ -1,9 +1,7 @@
 {
   "name": "oyez",
   "private": true,
-  "scripts": {
-    "postinstall": "husky install"
-  },
+  "scripts": {},
   "devDependencies": {
     "eslint": "^7.12.0",
     "eslint-config-airbnb": "^18.2.0",

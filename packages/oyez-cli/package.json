@@ -1,12 +1,34 @@
 {
   "name": "oyez-cli",
   "version": "1.0.0",
-  "description": "",
+  "description": "欧冶子脚手架",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "babel src -d dist",
+    "watch": "npm run compile --watch"
   },
-  "keywords": [],
-  "author": "",
-  "license": "MIT"
+  "bin": {
+    "oyez-cli": "./bin/index",
+    "oyez": "./bin/index"
+  },
+  "keywords": [
+    "脚手架",
+    "欧冶子"
+  ],
+  "author": "JieZao",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "download-git-repo": "^3.0.2",
+    "html-webpack-plugin": "^4.5.0",
+    "inquirer": "^7.3.3",
+    "log-symbols": "^4.0.0",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "ora": "^5.1.0",
+    "vue-loader": "^15.9.3",
+    "webpack": "^5.2.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {}
 }
