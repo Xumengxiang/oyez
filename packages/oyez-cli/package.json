@@ -1,6 +1,6 @@
 {
   "name": "oyez-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "欧冶子脚手架",
   "main": "index.js",
   "scripts": {
@@ -29,6 +29,5 @@
     "vue-loader": "^15.9.3",
     "webpack": "^5.2.0",
     "webpack-dev-server": "^3.11.0"
-  },
-  "devDependencies": {}
+  }
 }
