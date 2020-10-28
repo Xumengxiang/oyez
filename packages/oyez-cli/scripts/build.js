@@ -1,7 +1,7 @@
 const webpack = require('webpack');
 const symbol = require('log-symbols');
 const chalk = require('chalk');
-const config = require('./webpack.config.build');
+const config = require('../config/webpack.config.build');
 
 const build = () => {
   webpack(config, (err) => {

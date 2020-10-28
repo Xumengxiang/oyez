@@ -2,7 +2,7 @@ const webpack = require('webpack');
 const WebpackDevServer = require('webpack-dev-server');
 const OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
-const config = require('./webpack.config.dev.js');
+const config = require('../config/webpack.config.dev');
 
 const dev = (port) => {
   config.plugins.push(new OpenBrowserPlugin({ url: `http://localhost:${port}` }));
