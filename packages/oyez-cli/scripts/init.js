@@ -3,7 +3,7 @@ const symbol = require('log-symbols');
 const chalk = require('chalk');
 const ora = require('ora');
 const util = require('util');
-const { updateJsonFile } = require('./utils');
+const { updateJsonFile } = require('../util');
 
 const exec = util.promisify(child.exec);
 

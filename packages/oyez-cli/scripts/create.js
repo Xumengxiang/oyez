@@ -4,7 +4,7 @@ const ora = require('ora');
 
 const {
   notExistFolder, prompt, downloadTemplate, updateJsonFile,
-} = require('./utils');
+} = require('../util');
 
 const create = async (projectName) => {
   // 项目名不能为空
