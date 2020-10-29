@@ -2,7 +2,6 @@
   "name": "oyez-cli",
   "version": "1.0.4",
   "description": "欧冶子脚手架",
-  "main": "index.js",
   "scripts": {
     "compile": "babel src -d dist",
     "watch": "npm run compile --watch"
@@ -26,7 +25,6 @@
     "log-symbols": "^4.0.0",
     "open-browser-webpack-plugin": "^0.0.5",
     "ora": "^5.1.0",
-    "vue-loader": "^15.9.3",
     "webpack": "^5.2.0",
     "webpack-dev-server": "^3.11.0"
   }
