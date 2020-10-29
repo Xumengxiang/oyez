@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const program = require('commander');
-
+const checkRequiredFiles = require('oyez-utils/checkRequiredFiles');
 const create = require('../scripts/create');
 const init = require('../scripts/init');
 const dev = require('../scripts/dev');
@@ -86,6 +86,7 @@ Object.keys(actionMap).forEach((actionName) => {
     .action(() => {
       switch (actionName) {
         case 'create':
+          console.log('lerna 内部引用 package：',checkRequiredFiles([]));
           create(...process.argv.slice(3));
           break;
         case 'init':
