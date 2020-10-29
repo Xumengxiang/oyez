@@ -28,5 +28,6 @@
     "oyez-utils": "^1.0.3",
     "webpack": "^5.2.0",
     "webpack-dev-server": "^3.11.0"
-  }
+  },
+  "gitHead": "f1072b74051f3fe0734c750e2747bc909a2801fb"
 }
