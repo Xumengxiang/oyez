@@ -1,6 +1,6 @@
 {
   "name": "oyez-utils",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "webpack utilities used by oyez-cli",
   "repository": {
     "type": "git",
