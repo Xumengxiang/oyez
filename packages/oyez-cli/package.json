@@ -1,6 +1,6 @@
 {
   "name": "oyez-cli",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "欧冶子脚手架",
   "scripts": {
     "compile": "babel src -d dist",
@@ -25,7 +25,7 @@
     "log-symbols": "^4.0.0",
     "open-browser-webpack-plugin": "^0.0.5",
     "ora": "^5.1.0",
-    "oyez-utils": "^1.0.3",
+    "oyez-utils": "^1.0.4",
     "webpack": "^5.2.0",
     "webpack-dev-server": "^3.11.0"
   },
