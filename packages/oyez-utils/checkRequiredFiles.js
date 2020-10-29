@@ -10,6 +10,7 @@ const path = require('path');
 const chalk = require('chalk');
 
 function checkRequiredFiles(files) {
+  console.log('---');
   let currentFilePath;
   try {
     files.forEach((filePath) => {

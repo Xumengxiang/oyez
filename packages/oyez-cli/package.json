@@ -25,6 +25,7 @@
     "log-symbols": "^4.0.0",
     "open-browser-webpack-plugin": "^0.0.5",
     "ora": "^5.1.0",
+    "oyez-utils": "^1.0.2",
     "webpack": "^5.2.0",
     "webpack-dev-server": "^3.11.0"
   }
