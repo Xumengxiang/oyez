@@ -1,6 +1,6 @@
 {
   "name": "oyez-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "欧冶子脚手架",
   "scripts": {
     "compile": "babel src -d dist",
