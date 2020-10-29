@@ -1,12 +1,25 @@
 {
   "name": "oyez-utils",
   "version": "1.0.1",
-  "description": "",
-  "main": "index.js",
+  "description": "webpack utilities used by oyez-cli",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xumengxiang/oyez.git",
+    "directory": "packages/oyez-utils"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "checkRequiredFiles.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
 }
