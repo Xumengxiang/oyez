@@ -8,8 +8,8 @@
     "watch": "npm run compile --watch"
   },
   "bin": {
-    "oyez-cli": "./bin/index",
-    "oyez": "./bin/index"
+    "oyez-cli": "./bin/index.js",
+    "oyez": "./bin/index.js"
   },
   "keywords": [
     "脚手架",
