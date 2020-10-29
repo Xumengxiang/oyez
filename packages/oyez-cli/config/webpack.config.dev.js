@@ -1,4 +1,4 @@
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
+// const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -21,9 +21,9 @@ module.exports = {
   module:{
     rules:[
       {
-        test:/\.vue$/,
-        use:'vue-loader'
-      },{
+      //   test:/\.vue$/,
+      //   use:'vue-loader'
+      // },{
         test:/\.tsx?$/,
         loader:'ts-loader',
         options:{
@@ -37,7 +37,7 @@ module.exports = {
     ]
   },
   plugins:[
-    new VueLoaderPlugin(),
+    // new VueLoaderPlugin(),
     new HtmlWebpackPlugin({
       template:'./public/index.html',
       inject:true
