@@ -28,8 +28,8 @@ const create = async (projectName) => {
 
         let templateRepo = '';
         switch (answer.frame) {
-          case 'vue':
-            templateRepo = 'direct:https://github.com/xumengxiang/vue-temlate.git';
+          case 'ts':
+            templateRepo = 'direct:https://github.com/Xumengxiang/react-ts-template.git';
             break;
           case 'react':
             templateRepo = 'direct:https://github.com/xumengxiang/react-temlate.git';

@@ -20,7 +20,7 @@ const promptList = [
     type: 'list',
     name: 'frame',
     message: 'Please choose a project template:',
-    choices: ['vue', 'react'],
+    choices: ['ts', 'react'],
   }, {
     type: 'input',
     name: 'description',
@@ -58,7 +58,7 @@ const updateJsonFile = (fileName, obj) => new Promise((resolve, reject) => {
     Object.keys(obj).forEach((key) => {
       contentObj[key] = obj[key];
     });
-    fs.writeFileSync(fileName, JSON.stringify(contentObj, null, '/t'), 'utf-8');
+    fs.writeFileSync(fileName, JSON.stringify(contentObj, null, '  '), 'utf-8');
     resolve();
   } else {
     reject();
